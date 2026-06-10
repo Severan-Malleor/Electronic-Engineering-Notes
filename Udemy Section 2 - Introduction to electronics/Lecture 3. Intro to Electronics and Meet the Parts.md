@@ -31,6 +31,8 @@
 			* **Core Material:** Coils wound around magnetic or ferromagnetic materials (like iron) exhibit significantly higher inductance than those with air cores.
 			* **Geometry:** A larger cross-sectional area and a shorter overall length of the coil increase inductance.
 	* Diodes - Allow current to flow in one direction only
+		* Will flow from Anode to Cathode
+		* Cathode side usually has a stripe
 	* Transistors - Used as amplifiers and switches
 	* Batteries - Source of electrical current / voltage generators
 	* Wires - Used as conductors so that electrical current and signals can flow one electrical element to another
