@@ -15,6 +15,9 @@
 * The key to remember is that the building blocks of analog electronics are very few.
 	* The major building blocks are:
 	* Resistors - resists current flow, drops voltages
+		* 4 bands - Standard for general-purpose electronics
+		* 5 bands - Generally meant for high precision circuits
+			* Both can handle the same resistance value
 	* Capacitors - Store electrical charge- Ceramics are the most widely used
 		* Capacitance = The ability of a physical object or device to store electrical energy in the form of an electric charge
 			* Capacitance is measured in **Farads (F)**

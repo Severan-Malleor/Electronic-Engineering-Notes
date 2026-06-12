@@ -32,3 +32,24 @@
 	* Voltage is the potential difference between two points in space
 	* A more fundamental way to describe a volt is: If you were to move 1 Coulomb (C) of charge while ***expending*** 1 Joule (J) of energy between any two points in space then the potential difference is ***1 volt***
 * The ***Watt (W)*** is a measure of power. A watt is a measure of energy expended per second; amazingly enough the unites are just that, ***Joules (J) / Second (s)*** or 1 Watt (W) = ***1J/s*** 
+## 1.2.1 SI System Prefixes
+* The system also has a number of prefixes that can help you writ large or small quantities in _scientific notation_
+	* Scientific notation is a standard way of writing numbers in mathematics. In scientific notation ***all numbers are written as powers of 10*** in the form (_mantissa_ $10^{exp}$), where mantissa is a number ***greater than or equal to 1.0 and exp is ANY positive or negative integer***
+		* Examples:
+		* 35.0 = 2.4 * $10^1$
+		* -0.002323 = -2.323 * $10^{-3}$
+
+| Symbol | Prefix | Scaling Factor |
+| ------ | ------ | -------------- |
+| a      | atto   | $10^{-18}$     |
+| f      | femto  | $10^{-15}$     |
+| p      | pico   | $10^{-12}$     |
+| n      | nano   | $10^{-9}$      |
+| $\mu$  | micro  | $10^{-6}$      |
+| m      | mili   | $10^{-3}$      |
+| k      | kilo   | $10^{3}$       |
+| M      | mega   | $10^{6}$       |
+| G      | giga   | $10^{9}$       |
+| T      | tera   | $10^{12}$      |
+| P      | peta   | $10^{15}$      |
+| E      | exa    | $10^{18}$      |
