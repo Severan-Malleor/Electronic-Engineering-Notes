@@ -1,9 +1,9 @@
 ## 1.1 Introduction to Digital and Analog Electronics
-* The word _electronics_ is derived from the word electron, which is the sub atomic particle that has negative charge
-* Electronics is the study of of electrons in action, more specifically their properties in electrical circuits
-* ***However, electronics has simplified the field to manageable models that can be used to create circuits that performs various functions***
+* The word _electronics_ is derived from the word electron, which is the subatomic particle that has a negative charge
+* Electronics is the study of electrons in action, more specifically their properties in electrical circuits
+* ***However, electronics has simplified the field to manageable models that can be used to create circuits that perform various functions***
 
-<center>When talking about electronics you will hear about Analog and Digital electronics</center>
+When talking about electronics, you will hear about Analog and Digital electronics
 ### 1.1.1Analog Electronics
 * Analog electronics is the study of electrical systems that process smoothly varying electrical signals. Some examples
 	* stereo amplifiers
