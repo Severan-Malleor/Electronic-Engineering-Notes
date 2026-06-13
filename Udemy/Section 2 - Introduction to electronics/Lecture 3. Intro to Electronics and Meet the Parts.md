@@ -25,6 +25,7 @@
 		* **C** = Capacitance
 		* **Q** = Charge stored on one conductor (in Coulombs)
 		* **V** = Voltage across the conductors (in Volts)
+		* [Capacitor Equation](general-equations/Equations#Capacitor)
 	* Inductors / Coils - store / transfer electromagnetic energy
 		* Inductance =  The property of an electrical conductor or coil that opposes any change in the current flowing through it.
 			* Inductance is denoted by the symbol L and is measured in **Henrys (H)**.
