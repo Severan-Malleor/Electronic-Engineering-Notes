@@ -8,7 +8,6 @@
 *  A _Joule (J)_ of work is done in moving a _coulomb (C)_ $6.242 * 10^{18} electrons$ of charge through a _potential difference_ of _1V_
 	* _Electric Potential Energy Equation_:
 	* $Joules (J) = Coulomb (C) * Volts (V)$
-
 #### Current
 (symbol I): Current is the rate of flow of electrical charge past a point.
 * The unit of measurement is Amperes or Amps (A)
@@ -46,3 +45,46 @@ In real circuits we connect things together with wires (metallic conductors), ea
 	* P in Watts
 		* A watt is a Joule (J) per second (1W = 1J/S)
 	* Examples: [[Watts Law Practice Problems]]
+## 1.2.2 Relationship between voltage and current: resistors
+
+### A: Resistance and resistors
+
+Current though a metallic conductor (or other partially conducting material) is proportional to the voltage across it
+* In case of wire conductors in circuits, we usually choose a thick enough gauge of wire so that these "voltage drops" will be negligible
+
+A resistor is made out of some conducting stuff, below, with a wire or contacts at each end. It is characterized by resistance: [[Equations#Ohm's Law|Ohm's Law]]
+* Carbon
+* Thin metal or carbon film
+* Wire of poor conductivity
+
+Typical resistors of the most frequently used type (metal-oxide film, metal film, or carbon film) come in values from ***1 ohm (1 $\Omega$) to about megaohms (10 M$\Omega$)
+
+Resistors are also characterized by how much power they can:
+* Safely dissipate
+* Their physical size
+* by other parameters such as:
+	* Tolerance (accuracy)
+	* Temperature co-efficient
+	* Noise
+	* Voltage co-efficient (the extent to which R depends on applied V)
+	* Stability with time
+	* Inductance
+	* Many more
+
+Roughly speaking, resistors are used to convert a voltage to a current, and vice versa\
+
+Resistors are available with resistances 
+* from 0.0002 $\Omega$ through $10^{12} \Omega$, 
+* standard power ratings from 1/8 watt though 250 watts
+* accuracies from .005% though 20%
+
+#### B: Resistors in series and parallel
+
+From the definition of _R_, some simple results follow:
+* Series
+	* $R = R_1 +R_2$
+	* By putting resisters in series, you always get a ***larger*** resistor
+* Parallel
+	* $R = \frac{R_1 * R_2}{R_1 + R_2}$ or $R = \frac{1}{\frac{1}{R_1} + \frac{1}{R_2}}$
+	* By putting resistors in parallel, you always get a ***smaller*** resistor
+

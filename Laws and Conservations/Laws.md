@@ -40,3 +40,20 @@ Units:
 Physical meaning:
 Power is the rate at which energy is used or transferred.
 1 Watt = 1 Joule per second (1 W = 1 J/s)
+
+## Ohm's Law
+Statement: The voltage (V) across a conductor is directly proportional to the current (I) flowing through it, with Resistance (R) as the constant proportionality
+
+Core Equation: [[General Equations/Equations#Ohm's Law|Ohm's Law]]
+
+Units:
+V = Voltage in Volts (V)
+I = Current in Amps (A)
+R = Resistance in Ohms ($\Omega$)
+
+Physical Meaning:
+Ohm's Law describes the linear relationship between voltage, current, and resistance in a conductor.
+
+It tells us how much "pressure" (voltage) is needed to push a certain amount of charge (current) through a material that resists the flow (resistance)
+
+
