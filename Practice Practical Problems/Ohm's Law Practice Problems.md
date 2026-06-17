@@ -43,7 +43,7 @@ Answer b:
 * P = 9 * .03
 * P = .27W
 
-6. An Arduino 5 V pin drives an LED with a **1.8 V** forward voltage through a **330 Ω** resistor. 
+6. An Arduino 5 V pin drives an LED with a **1.8 V** forward voltage through a **330 Ω*** resistor. 
 a) What is the voltage across the resistor? 
 b) What current flows through the LED?
 Answer a:

@@ -12,7 +12,7 @@
 (symbol I): Current is the rate of flow of electrical charge past a point.
 * The unit of measurement is Amperes or Amps (A)
 * A current of 1A = a flow of 1 Coulomb (C) of charge per second (time) 
-* By convention, current in a circuit is considered to flow from a more positive point to a more negative point, ***even though the actual electron flow is in the opposite direction***
+* By convention, current in a circuit is considered to flow from a more positive point to a more negative c, ***even though the actual electron flow is in the opposite direction***
 
 ***Important:***
 * Currents ***flow through things***
@@ -49,10 +49,10 @@ In real circuits we connect things together with wires (metallic conductors), ea
 
 ### A: Resistance and resistors
 
-Current though a metallic conductor (or other partially conducting material) is proportional to the voltage across it
+Current through a metallic conductor (or other partially conducting material) is proportional to the voltage across it
 * In case of wire conductors in circuits, we usually choose a thick enough gauge of wire so that these "voltage drops" will be negligible
 
-A resistor is made out of some conducting stuff, below, with a wire or contacts at each end. It is characterized by resistance: [[Equations#Ohm's Law|Ohm's Law]]
+A resistor is made of a conductive material, as shown below, with a wire or contacts at each end. It is characterized by resistance: [[Equations#Ohm's Law|Ohm's Law]]
 * Carbon
 * Thin metal or carbon film
 * Wire of poor conductivity
@@ -64,9 +64,9 @@ Resistors are also characterized by how much power they can:
 * Their physical size
 * by other parameters such as:
 	* Tolerance (accuracy)
-	* Temperature co-efficient
+	* Temperature coefficient
 	* Noise
-	* Voltage co-efficient (the extent to which R depends on applied V)
+	* Voltage coefficient (the extent to which R depends on applied V)
 	* Stability with time
 	* Inductance
 	* Many more
@@ -88,3 +88,37 @@ From the definition of _R_, some simple results follow:
 	* $R = \frac{R_1 * R_2}{R_1 + R_2}$ or $R = \frac{1}{\frac{1}{R_1} + \frac{1}{R_2}}$
 	* By putting resistors in parallel, you always get a ***smaller*** resistor
 
+#### Resistor Trimming Shortcuts
+When you cannot find the exact resistor value you need, you can combine two resistors to get very close
+
+##### Series Combination (Trim up)
+* Adding resistors in series always ***increases*** total resistance
+*  ***Rule of thumb***: A large resistor in series with a small resistor ~ the value of the larger one
+How to use it:
+* Pick a resistor that is smaller than your target
+* Add a much smaller resistor in series to make up the difference
+Example:
+* Target = 1.2kΩ
+* You have a 1kΩ resistor
+* Add a 220Ω resistor in series -> Total  = 1.22kΩ
+How to:
+* Since its series we use the equation in [[#B Resistors in series and parallel]]
+	* $R_{total} = 1000Ω + 220Ω = 1220Ω / 1000Ω = 1.22 kΩ$
+		* Reminder we can use this when converting [[Misc Useful Notes#Unit Conversion Rule (Metric Prefixes)|Unit Conversion]]
+
+#### Parallel Combination (Trimming Down)
+* Adding resistors in parallel always ***decreases*** total resistance
+* ***Rule of thumb***: A large resistor in parallel with a small resistor ~ the value of the small one
+How to use it:
+* Pick a resistor that is larger than your target
+* Add a much larger resistor in parallel to pull the value down slightly
+Example:
+* Target = 10kΩ
+* You have a 12kΩ
+* Put a 100kΩ resistor in parallel -> total ~ 10.7kΩ
+How to:
+* We  also use the equation from [[#B Resistors in series and parallel]]
+	* $R = \frac{R_1 * R_2}{R_1 + R_2}$ or $R = \frac{1}{\frac{1}{R_1} + \frac{1}{R_2}}$
+		* $12000Ω * 100000Ω / 12000Ω + 100000Ω = (120000000Ω / 112000Ω) / 1000 ~ 10.7kΩ$
+
+#### C: Power in Resistors
