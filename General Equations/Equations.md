@@ -12,8 +12,6 @@ V = Voltage (Measured in Volts)
 ### Energy Stored
 Energy stored = ½ × C × V²
 
-![[capacitor_equation.png]]
-
 ---
 # Watt's Law
 P = V * I
@@ -43,8 +41,6 @@ Explanation:
 $P = V^2 / R$
 $P = I^2 * R$
 
-
-
 ---
 # Ohm's Law
 $V = I * R$
@@ -55,3 +51,30 @@ R = V / I
 V = Volts (Measured in Volts)
 I = Current (Measured in Amps)
 R = Resistance (Measured in Ohms $\Omega$)
+
+---
+# Transfer Function
+$H = V_{out} \div V_{in}$
+
+### Transfer function units
+H = Gain
+V = Volts
+
+---
+
+# Voltage Out
+
+$V_{out} = V_{in} \times \frac{R_2}{R_1 + R_2}$
+
+When $R_1 = R_2$, $V_{out} = V_{in}/2$
+
+Note: This only holds when **nothing else** is connected to $V_{out}$  (no significant load).
+
+---
+# Resistor in series and parallel
+
+### Series
+$R = R_1 + R_2$
+
+### Parallel
+$R = R_1 \times R_2 / R_1 + R_2$

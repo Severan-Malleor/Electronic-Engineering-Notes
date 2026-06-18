@@ -66,5 +66,7 @@ Than we use $P = I^2* R$
 * $P_{loss} = 378.1 * 10^6$
 
 (b) the length of cable over which you will lose all 10  watts, and 
+$10^{10} / 378.1 * 10^6 = 26.45ft$
+
 
 (c) how hot the cable will get, if you know the physics involved (CT = 6 x 10^-12   W/K4 cm2). If you have done your computations correctly, the result should seem preposterous. What is the solution to this puzzle?

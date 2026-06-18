@@ -80,6 +80,7 @@ Resistors are available with resistances
 
 #### B: Resistors in series and parallel
 
+[[Equations#Resistor in series and parallel|Series + Parellel]]
 From the definition of _R_, some simple results follow:
 * Series
 	* $R = R_1 +R_2$
@@ -122,3 +123,38 @@ How to:
 		* $12000Ω * 100000Ω / 12000Ω + 100000Ω = (120000000Ω / 112000Ω) / 1000 ~ 10.7kΩ$
 
 #### C: Power in Resistors
+The power dissipated by a resistor (or any other device) is $P=IV$. Using Ohm's law, you can get the equivalent forms $P=I^2\times R$ and $P=V^2\div R$ 
+
+#### D: Input and output
+Nearly all electronics accept some sort of applied _input_ (usually a voltage) and produce some sort of corresponding _output_ (which again is often a voltage)
+
+Example:
+An audio amplifier might produce a (varying) output voltage that is 100 time as large as  (similarly varying) input voltage
+
+When describing such an amplifier, we imagine measuring the output voltage for a given applies input voltage
+* Engineers speak of the [[Equations#Transfer Function|transfer function H]], the ratio of (measured) output divided by (applied) input
+
+## 1.2.3 Voltage Dividers
+A voltage divider is a circuit that, given a certain voltage input, produces a predictable fraction of the input voltage as the output voltage
+
+The convention in circuits like this is that:
+* signals generally flow from left to right
+* from the suggestive names ("in", "out") of the signals
+* from familiarity with circuits.
+
+What is $V_{out}$? [[Equations#Voltage Out|Voltage Out]]
+
+The current (same as everywhere, assuming "no load" - Under KCL, on the output, i.e., nothing across the output) is:
+* $I = V_{in} \div R_1 + R_2$
+
+We have used the definition of resistance and the series law
+Then, for $R_2$
+* $V_{out} = IR_2 = R_2 \div R_1 + R_2 \times V_{in}$
+
+![[Pasted image 20260618121746.png]]
+
+Note that the output voltage is AWLAYS less than (or equal to) the input voltage; that's why it's called a divider.
+* You could get amplification (more output than input) if one of the resistance were negative
+
+Voltage dividers are often used in circuits to generate a particular voltage from a larger fixed (or varying) voltage
+* For instance, if $V{in}$ is a varying voltage and $R_2$ is an adjustable resistor, you have a "volume control"; more simply, the combination of $R_1R_2$ can be made from a single variable resistor, or _potentiometer_ 
