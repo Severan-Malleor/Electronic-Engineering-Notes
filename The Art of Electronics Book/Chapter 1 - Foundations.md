@@ -158,3 +158,24 @@ Note that the output voltage is AWLAYS less than (or equal to) the input voltage
 
 Voltage dividers are often used in circuits to generate a particular voltage from a larger fixed (or varying) voltage
 * For instance, if $V{in}$ is a varying voltage and $R_2$ is an adjustable resistor, you have a "volume control"; more simply, the combination of $R_1R_2$ can be made from a single variable resistor, or _potentiometer_ 
+## 1.2.4 Voltage sources and current sources
+A perfect _voltage source_ is a two-terminal "black box" that maintains a fixed voltage drop across its terminals, regardless of load resistance
+* It must supply a current $I = V /R$  when a resistance $R$ is attached to its terminals.
+* A real voltage source source can supply only a finite maximum current, and in addition it generally behaves like a perfect voltage source with a small resistance in series
+* A voltage source "likes" an open-circuit load and "hates" a short-circuit load.
+
+Example:
+A standard 9V alkaline battery behaves approximately like a perfect 9 volt voltage source in series with a 3Ω resistor, and it can provide a maximum current (when shorted) of 3 amps (which, will kill the battery in a few minutes)
+
+Short-circuit and open-circuit
+* An open circuit has nothing connected to it
+* A short circuit is a piece of wire bridging the output
+
+A perfect _current source_ is a two-terminal black box that maintains a constant current through the external circuit, regardless of load resistance or applied voltage
+* Real current sources have a limit to the voltage they can provide (called the _output-voltage compliance, or just compliance_), and in addition they do not provide absolutely constant output current
+* A current source "likes" a short-circuit load and "hates" an open-circuit load
+
+A battery is a real-life approximation to a voltage source. There is no analog for a current source
+
+## 1.2.5 Thévenin equivalent circuit
+

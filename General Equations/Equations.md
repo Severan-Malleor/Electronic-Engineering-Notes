@@ -41,6 +41,12 @@ Explanation:
 $P = V^2 / R$
 $P = I^2 * R$
 
+| Formula   | Best Used When        | Typical Use Case                  |
+| --------- | --------------------- | --------------------------------- |
+| P = I²R   | You know current      | Wire losses, transmission lines   |
+| P = V²/R  | You know voltage      | Power in resistors, heaters, LEDs |
+| P = V × I | You know both V and I | General power calculation         |
+
 ---
 # Ohm's Law
 $V = I * R$
@@ -78,3 +84,22 @@ $R = R_1 + R_2$
 
 ### Parallel
 $R = R_1 \times R_2 / R_1 + R_2$
+
+---
+# Thévenin theorem
+
+$V_{th} = V$ (open circuit)
+$R_{th} = V / I$
+* V (Open Circuit)
+* I (Short Circuit)
+
+### voltage divider
+The open-circuit voltage is
+* $V = V_{in} \times R_2 / R_1 + R_2$
+The short-circuit current is
+* $V_{in} / R_1$
+
+So the Thévenin equivalent circuit is a voltage source
+$V_{th} = V_{in}\times R_2 / R_1 + R_2$
+
+$R_{th} = R_1R_2 / R_1 + R_2$

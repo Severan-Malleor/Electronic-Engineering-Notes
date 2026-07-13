@@ -12,3 +12,5 @@
 	* The difference in cathode charges:
 		* The charge depends on whether it’s a galvanic or electrolytic cell. In a galvanic cell, the cathode is positive. In an electrolytic cell, the cathode is negative.
 * Most batteries are zinc-chloride, lithium, or nickel-cadmium (rechargeable) designs.
+### 1.4.3.1.1 Increasing the Voltage -- Series Cells
+If you place a number of batteries or cells in series with one another in anode-cathode order, then the voltage of the resulting power source is the sum of the individual cells (Remember, conventional current flows from the positive terminal to the negative terminal)
