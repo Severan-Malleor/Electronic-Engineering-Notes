@@ -15,3 +15,27 @@ The charge of an electron is a tiny number: 0.00000000000000000016021766208 coul
 	* In terms of electrons, one coulomb is the combined charge of $6.24 \times 10^{18} electrons$
 
 # Engineering Notation
+The habit in engineering is to use a slightly modified scientific notation.
+* Engineers like exponents in multiples of three. This means the digits to the left of the decimal point fall in the range of 1 to 999.
+
+Sample:
+It takes light 0.0000333564095 seconds to travel 10 km in a vacuum
+
+1. Find the decimal point
+2. Hop over _three (3)_ digits at a time, going right, until you hop over one, two, or three _nonzero digits_.
+	1. In this case, take two hops to the right, until you hop over 33
+3. Write down 33
+4. Add a decimal 33. 
+5. Write down the remaining digits: 33.3564095
+6. Because we hopped _right_ finish by writing 10 raised to the _negative_ number of hops times three: $-2 hops \times 3 = -6$
+7. $33.3564095 \times10^{-6}$ seconds is the time it takes for light to travel 10 km in a vacuum, in engineering notation
+
+One flaw in engineering notation is that it can mislead about the number of significant figures
+* Engineers generally deal with wide tolerances of manufactured components, so the number of significant figures in circuit designs is usually small: two to three.
+* If the tolerance is important, it is common to write it next to the number, as shown in this example
+
+A large resistance value: $33.3 \times 10^6 \Omega \pm 1\%$
+
+# [[Prefixes|Prefixes]]
+
+
